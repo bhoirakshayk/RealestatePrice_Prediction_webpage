@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>House Price Prediction</title>
+</head>
+<body>
+	<div align="center">
+		<fieldset>
+			<h1>Welcome to House Price Prediction Page</h1>
+			<form method="POST" action="/getprediction" >
+				<table align="center">
+					<tr>
+						<td>Avg Area Income : </td>
+						<td><input type="text" name="aai"></td>
+					</tr>
+
+					<tr>
+						<td>Avg Area House Age : </td>
+						<td><input type="text" name="aaha"></td>
+					</tr>
+
+					<tr>
+						<td>Avg Area No of Rooms : </td>
+						<td><input type="text" name="aanr"></td>
+					</tr>
+
+					<tr>
+						<td>Avg Area No of Bedrooms : </td>
+						<td><input type="text" name="aanb"></td>
+					</tr>
+
+					<tr>
+						<td>Area Population : </td>
+						<td><input type="text" name="ap"></td>
+					</tr>
+
+					<tr>
+						<td><input type="reset"></td>
+						<td><input type="submit"></td>
+					</tr>
+
+				</table>
+			</form>
+
+		</fieldset>
+		
+	</div>
+</body>
+</html>
